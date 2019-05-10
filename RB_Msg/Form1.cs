@@ -15,5 +15,10 @@ namespace RB_Msg
         {
             InitializeComponent();
         }
+
+        private void Type_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
