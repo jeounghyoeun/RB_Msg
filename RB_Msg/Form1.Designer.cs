@@ -52,7 +52,6 @@
             this.gpOption1.TabIndex = 0;
             this.gpOption1.TabStop = false;
             this.gpOption1.Text = "Type";
-            this.gpOption1.Enter += new System.EventHandler(this.Type_Enter);
             // 
             // gpOption2
             // 
@@ -140,6 +139,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Show";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
